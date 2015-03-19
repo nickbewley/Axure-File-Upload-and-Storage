@@ -64,10 +64,10 @@ checkParse(function() {
 
 		 parseFile.save().then(function() {
 
-		 var jobApplication = new Parse.Object("Image"); // Image = the name of your Parse Class
-		 jobApplication.set("Name", "Joe Smith"); // this is a sample additional piece of information to add to Parse.. Can be anything
-		 jobApplication.set("theImage", parseFile);
-		 jobApplication.save();
+		 var imageUpload = new Parse.Object("Image"); // Image = the name of your Parse Class
+		 imageUpload.set("Name", "Joe Smith"); // this is a sample additional piece of information to add to Parse.. Can be anything
+		 imageUpload.set("theImage", parseFile);
+		 imageUpload.save();
 
 		}, function(error) {
 		  //error handling
