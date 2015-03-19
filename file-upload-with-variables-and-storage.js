@@ -50,8 +50,8 @@ function checkParse(callback){
 }
 
 checkParse(function() { 
-	var parse_app_id = "EulB1PXCWnuUJhitYj6boOZ3QGuGQYO7YlYcXziQ"
-	var parse_javascript_id = "kMNvlhSiq9ohhp1WOZPgTQFP69gBpQa6DJ3XsPBH"
+	var parse_app_id = "YOUR_APP_ID"
+	var parse_javascript_id = "YOUR_JS_ID"
 
 	Parse.initialize(parse_app_id, parse_javascript_id);
 	$('#UploadInput').bind("change", function(e) {
